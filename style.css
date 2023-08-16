@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    background-color:rgb(108, 127, 57);
+    padding: 50px;   /*preenchimento*/
+    color:antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#pizzariatropical {
+    width: 60px ;
+    display: inline;
+    margin-left: 0px;
+}
+
+.navegacao {
+    background-color:rgb(46, 87, 19);
+    color: aliceblue;
+    padding: 8px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color:rgb(46, 87, 19);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.cardapio{
+    display: flex;
+    background-color: bisque;
+ 
+}
+
+#img2{
+    width: 185px;
+background-color: bisque;
+}
+
+#paragrafo{
+    width: 255px;
+    display: flex;
+    align-items: center;
+}
+
+.rodape{
+    background-color: rgb(108, 127, 57);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+}
+
+.formulario {
+  text-align: center;
+}
